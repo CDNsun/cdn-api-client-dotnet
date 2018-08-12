@@ -24,15 +24,15 @@ namespace CdnApiClientTest
             var clientTest = new CdnClientTest(username, password, serviceId);
 
             var getResult = await clientTest.GetEmptyTest();
-            Console.WriteLine($"Empty GET result is:");
+            Console.WriteLine($"GET CDN services:");
             Console.WriteLine(getResult);
 
             var getResultWithQueryString = await clientTest.GetWithQueryStringTest();
-            Console.WriteLine($"GET result with query string is:");
+            Console.WriteLine($"GET CDN service reports:");
             Console.WriteLine(getResultWithQueryString);
 
             var postResult = await clientTest.PostDataTest();
-            Console.WriteLine($"POST result is:");
+            Console.WriteLine($"Purge CDN service content:");
             Console.WriteLine(postResult);
         }
 
