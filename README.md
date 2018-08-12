@@ -9,6 +9,7 @@ CDN API DOCUMENTATION
 https://cdnsun.com/knowledgebase/api
 
 BUILD
+
   To build the .NET client open the corresponding solution from **/cdn-api-client-dotnet/** folder in Visual Studio 2017 or newer and build.
   As an alternative open **/cdn-api-client-dotnet/** folder in CMD tool and run the following command:
 ```  
