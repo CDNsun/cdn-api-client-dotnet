@@ -44,7 +44,7 @@ var client = new CdnApiClient(username, password);
 
 NOTES
 
-* The ID stands for a CDN service ID, it is an integer number, eg. 123, to find your CDN service ID please visit the Services/How-To (https://cdnsun.com/cdn/how-to) page in the CDNsun CDN dashboard.
+* The {_serviceid} stands for a CDN service ID, it is an integer number, eg. 123, to find your CDN service ID please visit the Services/How-To (https://cdnsun.com/cdn/how-to) page in the CDNsun CDN dashboard.
 
 TEST USAGE
 
