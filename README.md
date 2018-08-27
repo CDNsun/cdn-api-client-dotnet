@@ -42,6 +42,10 @@ var client = new CdnApiClient(username, password);
         return await client.PostAsync(data, relativeUrl);
 ```
 
+NOTES
+
+* The ID stands for a CDN service ID, it is an integer number, eg. 123, to find your CDN service ID please visit the Services/How-To (https://cdnsun.com/cdn/how-to) page in the CDNsun CDN dashboard.
+
 TEST USAGE
 
 Run the following command under the **/CdnClientTest/** folder:
